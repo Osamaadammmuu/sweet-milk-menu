@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sweet-milk-menu/static/css/main.1c9bcf91.css",
+    "main.js": "/sweet-milk-menu/static/js/main.d2cb3bc4.js",
+    "static/js/453.a6dd674d.chunk.js": "/sweet-milk-menu/static/js/453.a6dd674d.chunk.js",
+    "static/media/coverhorizricepudding.jpg": "/sweet-milk-menu/static/media/coverhorizricepudding.19914feec4c43ebf1ade.jpg",
+    "static/media/blue rice.webp": "/sweet-milk-menu/static/media/blue rice.c64299bc6f0e3e484a91.webp",
+    "static/media/logo.png": "/sweet-milk-menu/static/media/logo.d01457a21418bb80f5f9.png",
+    "index.html": "/sweet-milk-menu/index.html",
+    "main.1c9bcf91.css.map": "/sweet-milk-menu/static/css/main.1c9bcf91.css.map",
+    "main.d2cb3bc4.js.map": "/sweet-milk-menu/static/js/main.d2cb3bc4.js.map",
+    "453.a6dd674d.chunk.js.map": "/sweet-milk-menu/static/js/453.a6dd674d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c9bcf91.css",
+    "static/js/main.d2cb3bc4.js"
+  ]
+}
