@@ -1,0 +1,54 @@
+.product-list {
+  display: flex;
+  padding-top: 80px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .product-cart {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 30px;
+    @media (min-width: 768px) and (max-width: 991px) {
+      width: 310px;
+    }
+    .img-pr {
+      width: 100%;
+      height: 170px;
+      border-radius: 10px 10px 0 0;
+    }
+    .product-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 10px 20px;
+      .right-side {
+        .head-name {
+        }
+        .desc-name {
+          font-size: 13px;
+        }
+      }
+      .left-side {
+        background-color: #1150ab;
+        color: #fff;
+        padding: 10px 14px;
+        border-radius: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+//----------------------------------------
+/* الاتجاه اليسار إلى اليمين (للغة الإنجليزية) */
+.product-info.ltr {
+  flex-direction: row; /* عرض العناصر بشكل طبيعي */
+}
+
+/* الاتجاه اليمين إلى اليسار (للغة العربية) */
+.product-info.rtl {
+  flex-direction: row-reverse; /* عكس اتجاه العناصر */
+  .right-side {
+    text-align: right;
+  }
+}

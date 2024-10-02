@@ -1,0 +1,22 @@
+.Land {
+  background-color: #fff;
+  height: 300px;
+  background-size: cover;
+  background-image: url("../images/coverhorizricepudding.jpg");
+  background-size: cover; /* لجعل الصورة تغطي العنصر */
+  background-position: center; /* لتوسيط الصورة في العنصر */
+  background-repeat: no-repeat; /* لمنع تكرار الصورة */
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  .container {
+    .img-land {
+      position: absolute;
+      border-radius: 50%;
+      top: 170px;
+      border: 8px solid #fff;
+      @media (max-width: 991px) {
+        left: 50%;
+        transform: translate(-50%);
+      }
+    }
+  }
+}
