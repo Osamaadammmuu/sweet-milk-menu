@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 import ProductList from './ProductList';
 import blueRiceImage from '../images/blue rice.webp';
 import blueberry from '../images/blueberry.webp';
-import mango from '../images/mango.webp';
+import mango from '../images/mango-sticky-rice-pudding-by-sweetnspicyliving-com.jpg';
 import nuts from '../images/nuts.webp';
 import Oreo from '../images/oreo.webp';
 import arfa from '../images/2rfa.webp';
