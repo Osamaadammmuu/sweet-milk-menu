@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/sweet-milk-menu/static/css/main.ec168ab1.css",
-    "main.js": "/sweet-milk-menu/static/js/main.b175140a.js",
+    "main.js": "/sweet-milk-menu/static/js/main.3b8f8881.js",
     "static/js/453.a6dd674d.chunk.js": "/sweet-milk-menu/static/js/453.a6dd674d.chunk.js",
     "static/media/blueberry.webp": "/sweet-milk-menu/static/media/blueberry.5e3d6a13834def7b03bf.webp",
     "static/media/oreo.webp": "/sweet-milk-menu/static/media/oreo.b1a90ead3244e600bbcf.webp",
-    "static/media/mango.webp": "/sweet-milk-menu/static/media/mango.d49e84624e3cdb95254f.webp",
+    "static/media/mango-sticky-rice-pudding-by-sweetnspicyliving-com.jpg": "/sweet-milk-menu/static/media/mango-sticky-rice-pudding-by-sweetnspicyliving-com.bf8ee8e7606ea471f296.jpg",
     "static/media/2rfa.webp": "/sweet-milk-menu/static/media/2rfa.78a7a971c70d4bd2e2be.webp",
     "static/media/coverhorizricepudding.jpg": "/sweet-milk-menu/static/media/coverhorizricepudding.19914feec4c43ebf1ade.jpg",
     "static/media/blue rice.webp": "/sweet-milk-menu/static/media/blue rice.c64299bc6f0e3e484a91.webp",
@@ -13,11 +13,11 @@
     "static/media/logo.png": "/sweet-milk-menu/static/media/logo.d01457a21418bb80f5f9.png",
     "index.html": "/sweet-milk-menu/index.html",
     "main.ec168ab1.css.map": "/sweet-milk-menu/static/css/main.ec168ab1.css.map",
-    "main.b175140a.js.map": "/sweet-milk-menu/static/js/main.b175140a.js.map",
+    "main.3b8f8881.js.map": "/sweet-milk-menu/static/js/main.3b8f8881.js.map",
     "453.a6dd674d.chunk.js.map": "/sweet-milk-menu/static/js/453.a6dd674d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec168ab1.css",
-    "static/js/main.b175140a.js"
+    "static/js/main.3b8f8881.js"
   ]
 }
