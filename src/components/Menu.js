@@ -1,8 +1,15 @@
 // src/components/Menu.js
 import React, { useState } from 'react';
+import '../style/Menu.scss';
 import Navbar from './Navbar';
 import ProductList from './ProductList';
 import blueRiceImage from '../images/blue rice.webp';
+import blueberry from '../images/blueberry.webp';
+import mango from '../images/mango.webp';
+import nuts from '../images/nuts.webp';
+import Oreo from '../images/oreo.webp';
+import arfa from '../images/2rfa.webp';
+
 
 //-------------------------------------------------
 function Menu() {
@@ -19,10 +26,12 @@ function Menu() {
   const products = { 
     ar: [
       // منتجات رز بلبن
-      { name: 'رز بلبن بالفواكه', description: 'رز بلبن مع قطع الفواكه الطازجة', price: '30 LE', section: 'رز بلبن', image: blueRiceImage },
-      { name: 'رز بلبن بالفواكه', description: 'رز بلبن مع قطع الفواكه الطازجة', price: '30 LE', section: 'رز بلبن', image: blueRiceImage },
-      { name: 'رز بلبن بالشوكولاتة', description: 'رز بلبن بنكهة الشوكولاتة الغنية', price: '30 LE', section: 'رز بلبن', image: blueRiceImage },
-      { name: 'رز بلبن بالشوكولاتة', description: 'رز بلبن بنكهة الشوكولاتة الغنية', price: '30 LE', section: 'رز بلبن', image: blueRiceImage },
+      { name: 'رز بلبن ', description: 'رز بلبن سادة ', price: '20 LE', section: 'رز بلبن', image: blueRiceImage },
+      { name: ' تارت رز بلبن ', description: 'رز بلبن تارت', price: '50 LE', section: 'رز بلبن', image: blueberry },
+      { name: 'رز بلبن بالمانجا', description: 'رز بلبن بنكهة بالمانجا ', price: '40 LE', section: 'رز بلبن', image: mango },
+      { name: 'رز بلبن بالشوكولاتة', description: 'رز بلبن بنكهة الشوكولاتة الغنية', price: '35 LE', section: 'رز بلبن', image: Oreo },
+      { name: 'رز بلبن بالشوكولاتة', description: 'رز بلبن بنكهة الشوكولاتة الغنية', price: '25 LE', section: 'رز بلبن', image: arfa },
+      { name: 'رز بلبن بالمكسرات', description: 'رز بلبن بنكهة الشوكولاتة الغنية', price: '50 LE', section: 'رز بلبن', image: nuts },
       // منتجات العصائر
       { name: 'عصير مانجو', description: 'عصير مانجو طازج ومنعش', price: '30 LE', section: 'عصائر', image: blueRiceImage },
       { name: 'عصير فراولة', description: 'عصير فراولة بارد', price: '30 LE', section: 'عصائر', image: blueRiceImage },
@@ -70,7 +79,7 @@ function Menu() {
       <div className='container'>
         {/* زر تبديل اللغة */}
         <button className="language-toggle" onClick={toggleLanguage}>
-          {language === 'ar' ? 'English' : 'عربي'}
+          {language === 'ar' ? 'Convert to English' : 'العودة إلى العربية'}
         </button>
 
         {/* شريط التنقل */}
