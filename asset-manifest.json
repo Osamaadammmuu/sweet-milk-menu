@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sweet-milk-menu/static/css/main.ec168ab1.css",
-    "main.js": "/sweet-milk-menu/static/js/main.3b8f8881.js",
+    "main.css": "/sweet-milk-menu/static/css/main.62864261.css",
+    "main.js": "/sweet-milk-menu/static/js/main.ac89270f.js",
     "static/js/453.a6dd674d.chunk.js": "/sweet-milk-menu/static/js/453.a6dd674d.chunk.js",
-    "static/media/blueberry.webp": "/sweet-milk-menu/static/media/blueberry.5e3d6a13834def7b03bf.webp",
-    "static/media/oreo.webp": "/sweet-milk-menu/static/media/oreo.b1a90ead3244e600bbcf.webp",
-    "static/media/mango-sticky-rice-pudding-by-sweetnspicyliving-com.jpg": "/sweet-milk-menu/static/media/mango-sticky-rice-pudding-by-sweetnspicyliving-com.bf8ee8e7606ea471f296.jpg",
-    "static/media/2rfa.webp": "/sweet-milk-menu/static/media/2rfa.78a7a971c70d4bd2e2be.webp",
-    "static/media/coverhorizricepudding.jpg": "/sweet-milk-menu/static/media/coverhorizricepudding.19914feec4c43ebf1ade.jpg",
-    "static/media/blue rice.webp": "/sweet-milk-menu/static/media/blue rice.c64299bc6f0e3e484a91.webp",
-    "static/media/nuts.webp": "/sweet-milk-menu/static/media/nuts.50907931019f3289a779.webp",
+    "static/media/White Torn Paper Coming Soon Facebook Post.png": "/sweet-milk-menu/static/media/White Torn Paper Coming Soon Facebook Post.0c9cecc1d6b07f80da6b.png",
+    "static/media/05.PNG": "/sweet-milk-menu/static/media/05.167110ca778f96385098.PNG",
+    "static/media/08.PNG": "/sweet-milk-menu/static/media/08.144f102b1af0797e4993.PNG",
+    "static/media/03.PNG": "/sweet-milk-menu/static/media/03.bdede44bf20c93134d85.PNG",
+    "static/media/04.PNG": "/sweet-milk-menu/static/media/04.55a1b9529e6a5d80bd7a.PNG",
+    "static/media/11.png": "/sweet-milk-menu/static/media/11.3c3bf2fa9966601248e7.png",
+    "static/media/88810.png": "/sweet-milk-menu/static/media/88810.920e448f02f91a6351e1.png",
     "static/media/logo.png": "/sweet-milk-menu/static/media/logo.d01457a21418bb80f5f9.png",
     "index.html": "/sweet-milk-menu/index.html",
-    "main.ec168ab1.css.map": "/sweet-milk-menu/static/css/main.ec168ab1.css.map",
-    "main.3b8f8881.js.map": "/sweet-milk-menu/static/js/main.3b8f8881.js.map",
+    "main.62864261.css.map": "/sweet-milk-menu/static/css/main.62864261.css.map",
+    "main.ac89270f.js.map": "/sweet-milk-menu/static/js/main.ac89270f.js.map",
     "453.a6dd674d.chunk.js.map": "/sweet-milk-menu/static/js/453.a6dd674d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec168ab1.css",
-    "static/js/main.3b8f8881.js"
+    "static/css/main.62864261.css",
+    "static/js/main.ac89270f.js"
   ]
 }
