@@ -1,99 +1,87 @@
-// src/components/Menu.js
 import React, { useState } from 'react';
 import '../style/Menu.scss';
 import Navbar from './Navbar';
 import ProductList from './ProductList';
-import blueRiceImage from '../images/blue rice.webp';
-import blueberry from '../images/blueberry.webp';
-import mango from '../images/mango-sticky-rice-pudding-by-sweetnspicyliving-com.jpg';
-import nuts from '../images/nuts.webp';
-import Oreo from '../images/oreo.webp';
-import arfa from '../images/2rfa.webp';
+import lotus from '../images/05.PNG';
+import mango from '../images/White Torn Paper Coming Soon Facebook Post.png';
+import nuts from '../images/04.PNG';
+import main from '../images/08.PNG';
+import arfa from '../images/03.PNG';
+import loading from '../images/11.png';
 
-
-//-------------------------------------------------
+//----------------------------------------------------------------------
 function Menu() {
-
   const [language, setLanguage] = useState('ar'); // اللغة الافتراضية: العربية
 
-  // الأقسام باللغتين
+  // تحديد الأقسام لكل لغة
   const sections = {
-    ar: ['رز بلبن', 'تريلاتشي', 'عصائر', 'الطرش'],
-    en: ['Rice Pudding', 'Trellis', 'Juices', 'Creamy Desserts']
+    ar: ['رز بلبن', 'أكواب الحلو', 'الطرش', 'عصائر'],
+    en: ['Rice Pudding', 'cups', 'crazy Desserts', 'Juices']
   };
 
-  // قائمة المنتجات باللغتين
-  const products = { 
+  // تحديد المنتجات لكل لغة
+  const products = {
     ar: [
-      // منتجات رز بلبن
-      { name: 'رز بلبن ', description: 'رز بلبن سادة ', price: '20 LE', section: 'رز بلبن', image: blueRiceImage },
-      { name: ' تارت رز بلبن ', description: 'رز بلبن تارت', price: '50 LE', section: 'رز بلبن', image: blueberry },
-      { name: 'رز بلبن بالمانجا', description: 'رز بلبن بنكهة بالمانجا ', price: '40 LE', section: 'رز بلبن', image: mango },
-      { name: 'رز بلبن بالشوكولاتة', description: 'رز بلبن بنكهة الشوكولاتة الغنية', price: '35 LE', section: 'رز بلبن', image: Oreo },
-      { name: 'رز بلبن بالشوكولاتة', description: 'رز بلبن بنكهة الشوكولاتة الغنية', price: '25 LE', section: 'رز بلبن', image: arfa },
-      { name: 'رز بلبن بالمكسرات', description: 'رز بلبن بنكهة الشوكولاتة الغنية', price: '50 LE', section: 'رز بلبن', image: nuts },
-      // منتجات العصائر
-      { name: 'عصير مانجو', description: 'عصير مانجو طازج ومنعش', price: '30 LE', section: 'عصائر', image: blueRiceImage },
-      { name: 'عصير فراولة', description: 'عصير فراولة بارد', price: '30 LE', section: 'عصائر', image: blueRiceImage },
-      // منتجات القشطوطة
-      { name: 'قشطوطة بالكراميل', description: 'قشطوطة مع كراميل سائل', price: '30 LE', section: 'تريلاتشي', image: blueRiceImage },
-      { name: 'قشطوطة بالشوكولاتة', description: 'قشطوطة مع صوص الشوكولاتة', price: '30 LE', section: 'تريلاتشي', image: blueRiceImage },
-      // منتجات الطرش
-      { name: 'قشطوطة بالكراميل', description: 'قشطوطة مع كراميل سائل', price: '30 LE', section: 'الطرش', image: blueRiceImage },
+      { name: 'رز بلبن ', description: 'رز بلبن سادة ', price: 'EGP 20', section: 'رز بلبن', image: main },
+      { name: 'رز بلبن بالقرفة', description: 'رز بلبن بالقرفة  ', price: 'EGP 25', section: 'رز بلبن', image: arfa },
+      { name: 'رز بلبن بالايس', description: 'رز بلبن مع ايس كريم بارد', price: 'EGP 30', section: 'رز بلبن', image: loading },
+      { name: 'رز بلبن بالمكسرات', description: 'رز بلبن بالمكسرات الغنية', price: 'EGP 45', section: 'رز بلبن', image: nuts },
+      { name: 'رز بلبن ايس بالمكسرات', description: 'رز بلبن مع ايس كريم ومكسرات غنية', price: 'EGP 55', section: 'رز بلبن', image: loading },
+      { name: 'رز بلبن نوتيلا ومكسرات', description: 'رز بلبن مع نوتيلا ومكسرات', price: 'EGP 55', section: 'رز بلبن', image: loading},
+      { name: 'رز بلبن باللوتس', description: 'رز بلبن مع لوتس كريمي', price: 'EGP 45', section: 'رز بلبن', image: lotus },
+      { name: 'رز بلبن بالمانجا', description: 'رز بلبن بالمانجا ', price: 'EGP 40', section: 'رز بلبن', image: mango },
     ],
     en: [
-      // Rice Pudding
-      { name: 'Classic Rice Pudding', description: 'Rice pudding with fresh milk and sugar', price: '$1.50', section: 'Rice Pudding', image: blueRiceImage },
-      { name: 'Fruit Rice Pudding', description: 'Rice pudding with fresh fruit pieces', price: '$1.80', section: 'Rice Pudding', image: blueRiceImage },
-      { name: 'Chocolate Rice Pudding', description: 'Rice pudding with rich chocolate flavor', price: '$2.10', section: 'Rice Pudding', image: blueRiceImage },
-      // Juice
-      { name: 'Mango Juice', description: 'Fresh and refreshing mango juice', price: '$0.90', section: 'Juices', image: blueRiceImage },
-      { name: 'Strawberry Juice', description: 'Cold and sweet strawberry juice', price: '$0.90', section: 'Juices', image: blueRiceImage },
-      // Creamy Dessert
-      { name: 'Creamy Dessert', description: 'Creamy dessert with liquid caramel', price: '$1.20', section: 'Creamy Desserts', image: blueRiceImage },
-      { name: 'Creamy Dessert', description: 'Creamy dessert with chocolate sauce', price: '$1.30', section: 'Creamy Desserts', image: blueRiceImage },
+      { name: 'Classic Rice Pudding', description: 'Rice pudding with fresh milk', price: 'EGP 20', section: 'Rice Pudding', image: main },
+      { name: 'Cinnamon Rice Pudding', description: 'Rice pudding with a touch of cinnamon', price: 'EGP 25', section: 'Rice Pudding', image: arfa },
+      { name: 'Rice Pudding with Ice Cream', description: 'Rice pudding with cold ice cream', price: 'EGP 30', section: 'Rice Pudding', image: loading }, 
+      { name: 'Nutty Rice Pudding', description: 'Rice pudding with rich nuts', price: 'EGP 45', section: 'Rice Pudding', image: nuts },
+      { name: 'Rice Pudding with Ice Cream and Nuts', description: 'Rice pudding with cold ice cream and rich nuts', price: 'EGP 55', section: 'Rice Pudding', image: loading },
+      { name: 'Nutella and Nutty Rice Pudding', description: 'Rice pudding with Nutella and rich nuts', price: 'EGP 55', section: 'Rice Pudding', image: loading },
+      { name: 'Lotus Rice Pudding', description: 'Rice pudding with creamy lotus', price: 'EGP 45', section: 'Rice Pudding', image: lotus },
+      { name: 'Mango Rice Pudding', description: 'Rice pudding with fresh mango', price: 'EGP 40', section: 'Rice Pudding', image: mango },
     ]
   };
+  
+  
+  const [selectedSection, setSelectedSection] = useState(sections[language] ? sections[language][0] : '');
 
-
-  // الحالة لتخزين القسم المختار
-  const [selectedSection, setSelectedSection] = useState(sections[language][0]);
-
-  // تغيير القسم المختار
-  function handleSectionSelect(section) {
-    setSelectedSection(section);
-  }
-
-  // تغيير اللغة
-  function toggleLanguage() {
+  const toggleLanguage = () => {
     const newLanguage = language === 'ar' ? 'en' : 'ar';
     setLanguage(newLanguage);
-    setSelectedSection(sections[newLanguage][0]); // تعيين القسم الأول من اللغة الجديدة
-  }
+    setSelectedSection(sections[newLanguage] ? sections[newLanguage][0] : ''); // تحديث القسم المختار بناءً على اللغة
+  };
 
-  // المنتجات المعروضة بناءً على القسم المختار واللغة
-  const displayedProducts = products[language].filter(product => product.section === selectedSection);
+  const displayedProducts = products[language]?.filter(product => product.section === selectedSection) || [];
+  const isSectionDisabled = (section) => {
+    const disabledSections = {
+      ar: ['عصائر', 'الطرش'],
+      en: ['Juices', 'crazy Desserts']
+    };
+    return disabledSections[language].includes(section);
+  };
 
   return (
     <div className={`menu-container ${language === 'ar' ? 'rtl' : 'ltr'}`}>
-      <div className='container'>
-        {/* زر تبديل اللغة */}
-        <button className="language-toggle" onClick={toggleLanguage}>
-          {language === 'ar' ? 'Convert to English' : 'العودة إلى العربية'}
-        </button>
+      <div className="container">
+        {/* زر تغيير اللغة */}
+        <div className="language-toggle" onClick={toggleLanguage}>
+          <span>{language === 'ar' ? 'English' : 'العربية'}</span>
+        </div>
 
         {/* شريط التنقل */}
-        <Navbar sections={sections[language]} onSectionSelect={handleSectionSelect} selectedSection={selectedSection} />
-        {/* عنوان القائمة 
-          <h1>{language === 'ar' ? 'منيو Sweet Milk' : 'Sweet Milk Menu'}</h1>
-          <h2>{language === 'ar' ? `القسم المختار: ${selectedSection}` : `Selected Section: ${selectedSection}`}</h2>
-        */}
-        {/* عرض قائمة المنتجات */}
+        <Navbar
+          sections={sections[language]}
+          onSectionSelect={setSelectedSection}
+          selectedSection={selectedSection}
+          isSectionDisabled={isSectionDisabled}
+        />
+
+        {/* قائمة المنتجات */}
         <ProductList products={displayedProducts} language={language} />
       </div>
     </div>
   );
-
 }
-//-------------------------------------------------
+//----------------------------------------------------------------------
 export default Menu;
