@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sweet-milk-menu/static/css/main.62864261.css",
-    "main.js": "/sweet-milk-menu/static/js/main.ac89270f.js",
+    "main.css": "/sweet-milk-menu/static/css/main.ad5a29bb.css",
+    "main.js": "/sweet-milk-menu/static/js/main.be911b98.js",
     "static/js/453.a6dd674d.chunk.js": "/sweet-milk-menu/static/js/453.a6dd674d.chunk.js",
     "static/media/White Torn Paper Coming Soon Facebook Post.png": "/sweet-milk-menu/static/media/White Torn Paper Coming Soon Facebook Post.0c9cecc1d6b07f80da6b.png",
+    "static/media/15.png": "/sweet-milk-menu/static/media/15.a09ef13df792f77c26be.png",
     "static/media/05.PNG": "/sweet-milk-menu/static/media/05.167110ca778f96385098.PNG",
     "static/media/08.PNG": "/sweet-milk-menu/static/media/08.144f102b1af0797e4993.PNG",
     "static/media/03.PNG": "/sweet-milk-menu/static/media/03.bdede44bf20c93134d85.PNG",
     "static/media/04.PNG": "/sweet-milk-menu/static/media/04.55a1b9529e6a5d80bd7a.PNG",
-    "static/media/11.png": "/sweet-milk-menu/static/media/11.3c3bf2fa9966601248e7.png",
-    "static/media/88810.png": "/sweet-milk-menu/static/media/88810.920e448f02f91a6351e1.png",
+    "static/media/17.JPEG": "/sweet-milk-menu/static/media/17.d021933722c615e9051a.JPEG",
     "static/media/logo.png": "/sweet-milk-menu/static/media/logo.d01457a21418bb80f5f9.png",
     "index.html": "/sweet-milk-menu/index.html",
-    "main.62864261.css.map": "/sweet-milk-menu/static/css/main.62864261.css.map",
-    "main.ac89270f.js.map": "/sweet-milk-menu/static/js/main.ac89270f.js.map",
+    "main.ad5a29bb.css.map": "/sweet-milk-menu/static/css/main.ad5a29bb.css.map",
+    "main.be911b98.js.map": "/sweet-milk-menu/static/js/main.be911b98.js.map",
     "453.a6dd674d.chunk.js.map": "/sweet-milk-menu/static/js/453.a6dd674d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62864261.css",
-    "static/js/main.ac89270f.js"
+    "static/css/main.ad5a29bb.css",
+    "static/js/main.be911b98.js"
   ]
 }
