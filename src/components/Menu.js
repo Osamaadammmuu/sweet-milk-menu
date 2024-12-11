@@ -7,7 +7,7 @@ import mango from '../images/White Torn Paper Coming Soon Facebook Post.png';
 import nuts from '../images/04.PNG';
 import main from '../images/08.PNG';
 import arfa from '../images/03.PNG';
-import loading from '../images/11.png';
+import loading from '../images/17.JPEG';
 
 //----------------------------------------------------------------------
 function Menu() {
@@ -27,7 +27,7 @@ function Menu() {
       { name: 'رز بلبن بالايس', description: 'رز بلبن مع ايس كريم بارد', price: 'EGP 30', section: 'رز بلبن', image: loading },
       { name: 'رز بلبن بالمكسرات', description: 'رز بلبن بالمكسرات الغنية', price: 'EGP 45', section: 'رز بلبن', image: nuts },
       { name: 'رز بلبن ايس بالمكسرات', description: 'رز بلبن مع ايس كريم ومكسرات غنية', price: 'EGP 55', section: 'رز بلبن', image: loading },
-      { name: 'رز بلبن نوتيلا ومكسرات', description: 'رز بلبن مع نوتيلا ومكسرات', price: 'EGP 55', section: 'رز بلبن', image: loading},
+      { name: 'رز بلبن نوتيلا ومكسرات', description: 'رز بلبن مع نوتيلا ومكسرات', price: 'EGP 60', section: 'رز بلبن', image: loading},
       { name: 'رز بلبن باللوتس', description: 'رز بلبن مع لوتس كريمي', price: 'EGP 45', section: 'رز بلبن', image: lotus },
       { name: 'رز بلبن بالمانجا', description: 'رز بلبن بالمانجا ', price: 'EGP 40', section: 'رز بلبن', image: mango },
     ],
